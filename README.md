@@ -1,5 +1,7 @@
 # Portf-lio-Ana-Beatriz
 
+-- Portfólio de competências e habilidades da aluna Ana Beatriz do 2° DS.
+
 08/06/21 - Aula de introdução ao GitHub, quanto a criação de repositório e gerenciamento do mesmo.
 
 08/06/21 - Houve a aula de integração do GitHub com o VSCODE e o REPLIT
