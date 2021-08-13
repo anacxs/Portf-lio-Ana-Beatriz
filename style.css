@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap');
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+
+.bg-anti-flash-white{
+  background: #f1f2f6;
+}
+
+.titulo-sobre-mim{
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.painel{
+ background-color: bisque; 
+}
+
+.titulo-painel{
+  font-family: 'Raveway';
+  font-size: 5rem;
+}
+
+.meus-projetos{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+}
+
+@media (max-width: 575.98px) {
+    body {
+        overflow: auto;
+        height: auto;
+        background-size: cover;
+    }
+}
+
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
