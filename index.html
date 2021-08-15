@@ -10,18 +10,29 @@
   <link href="css/bootstrap.css" rel="stylesheet"/>
   <link href="style.css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  
 </head>
 
-<body class="bg-anti-flash-white"> 
+<body> 
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top bg-personal-nav">
     <a href="" class="navbar-brand text-white">Ana<strong>Beatriz</strong></a>
-    <butoon class="navbar-toggler" data-target="my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation" ></butoon>
-    <span class="navbar-toggler-icon"></span>
-    </button>
+    <div id="my-way" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link text-right"> <i class="fas fa-home"> Home! </i> </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> <i class="fas fa-envelope"> Email! </i> </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> <i class="fas fa-user-tie"> Fale Conosco! </i> </a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
-  <div class="jumbotron jumbotron-fluid painel">
+  <div class="jumbotron jumbotron-fluid bg-personal d-none d-sm-block">
     <h1 class=" titulo-painel display-4 text-center text-white mt-4 mb-4">WELCOME!</h1>
   </div> 
 
@@ -33,13 +44,16 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-6 col-md-4 mt-5">
+      <div class="col-12 col-sm-6 col-md-4 mt-5 mb-5">
         <img class="img img-fluid rounded border border-dark" src="img/anabeatriz.jpeg" alt="AnaBeatriz">
       </div>
       <div class="col-12 col-sm-8 offset-md-1 col-md-6 mt-0 mt-sm-1 mt-md-5 bg-city-lights">
           <p class="text-dark text-justify mt-2 mt-sm-1 mt-md-1 ">
                         Oi me chamo Ana Beatriz, mas me chame de Nana ou Bia estudo na Etec de Lins no curso de Desenolvimento de Sistema. Gosto de ler e escrever e meus estilos preferidos de livros são aqueles de true crime e fantasia tenho livros queridinhos como A Máscara da Maldade e Desventuras em Série, além de adorar livros e escrever eu adoro música tenho vários grupos preferidos e eles vão de grupos americanos, á australianos ou até mesmo á asiáticos posso citar 5sos, Stray Kids e Monsta x como um deles. Estou ainda no ensino médio aprendendo a programar e espero poder evoluir muito!
                     </p>
+                    <i class="fab fa-instagram mr-3"></i>
+                    <i class="fab fa-github mr-3"></i> 
+                    <i class="fab fa-whatsapp"></i> 
     
       </div>
         </div>
@@ -54,22 +68,32 @@
 
      <div class="container">
     <div class="row align-items-start">
-    <div class="col-12 col-sm-6 col-md-4 mt-5">
+    <div class="col-12 col-sm-6 col-md-4 mt-3 mb-5">
       <a href="projeto-reservetec">
         <h5 class="text-center text-dark">Reservetec</h5> 
       </a>
     </div>
-    <div class="col-12 col-sm-6 col-md-4 mt-5">
+    <div class="col-12 col-sm-6 col-md-4 mt-3">
       <a href="projeto-fadeline">
         <h5 class="text-center text-dark">Fadeline</h5> 
       </a>
     </div>
-    <div class="col-12 col-sm-6 col-md-4 mt-5">
+    <div class="col-12 col-sm-6 col-md-4 mt-3">
       <a href="projeto-integrante-php">
         <h5 class="text-center text-dark">Integrante PHP</h5> 
       </a>
     </div>
   </div>
+
+  <div class="container">
+        <div class="row">
+            <div class="col-12 mt-5">
+                <p class="text-dark text-center">
+                    Todos os direitos reservados. <br> Desevolvido por: Ana Beatriz Ferreira Germano
+                </p>
+            </div>
+        </div>
+    </div>
 
     <div class="modal fade" id="modal-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -89,6 +113,9 @@
     </div>
     </div>
   </div>
+
+   
+
 
   
 
